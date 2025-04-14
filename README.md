@@ -35,5 +35,6 @@ web development capabilities and connect with potential employers.
 
 # Some Images of the Projects
 
-![1](https://github.com/user-attachments/assets/877d42ac-536a-4a3b-b9bb-7fdd8589c1fa)
-![2](https://github.com/user-attachments/assets/4074a75f-86e0-4952-b7cb-84bda60c7036)
+![1](https://github.com/user-attachments/assets/e0e97e61-6cd6-4539-b819-aa070afb7bdb)
+![2](https://github.com/user-attachments/assets/af68d346-7e92-45c5-8695-85a78c5f9e2c)
+
