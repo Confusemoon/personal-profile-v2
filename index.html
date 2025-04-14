@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Haodi Hua">
+        <meta name="description" content="Writing Assignment 4 - Portfolio V2">
+        <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Haodi Hua - Portfolio V2</title>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="container nav-content">
+                    <h1>Haodi Hua</h1>
+                    <div class="nav-links">
+                        <a href="#hero">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <div class="hero-banner">
+                <div class="overlay">
+                    <h2 class="hello-world animate">Hello, World!</h2>
+                    <p class="hero-subtitle">Computer Programming Graduate</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <img src="./assets/img/about-image.jpg" alt="Haodi Hua" class="profile-img animate">
+                    <div class="about-text">
+                        <p>I'm Haodi Hua, a recent Computer Programming graduate with a passion for creating efficient, 
+                            user-friendly web applications. During my studies, I developed strong foundations in software 
+                            development principles and gained hands-on experience through various academic projects.
+                        </p>
+                        <br>
+                        <p>My journey in programming began with simple HTML pages and has evolved into building full-stack 
+                            applications. I particularly enjoy solving complex problems and implementing responsive designs 
+                            that work seamlessly across devices.
+                        </p>   
+                        <br>                
+                        <p>When I'm not coding, I enjoy contributing to open-source projects and staying updated with the 
+                            latest web development trends. I'm currently expanding my skills in cloud technologies and 
+                            looking for opportunities to work on meaningful projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title animate">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card animate">
+                        <h3>HTML5</h3>
+                        <p>Semantic Markup</p>
+                    </div>
+                    <div class="skill-card animate">
+                        <h3>CSS3</h3>
+                        <p>Responsive Design</p>
+                    </div>
+                    <div class="skill-card animate">
+                        <h3>JavaScript</h3>
+                        <p>Interactive Features</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title animate">Connect With Me</h2>
+                <div class="contact-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Name</label>
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                            <span class="error"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Message</label>
+                            <span class="error"></span>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <div class="contact-links">
+                        <a href="https://linkedin.com/in/haodihua" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Confusemoon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:huahaodi2014@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container footer-content">
+                <p>&copy; 2024 Haodi Hua. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/haodihua" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Confusemoon" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
